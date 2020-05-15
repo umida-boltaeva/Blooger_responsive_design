@@ -6,6 +6,14 @@ $(document).ready(function(){
     $toggleCollapse.click(function(){
         $nav.toggleClass("collapse");
     });
+
+    $(".owl-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeOut: 3000,
+        dots: false,
+        nav: true
+    });
 });
 
 
