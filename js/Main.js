@@ -9,10 +9,10 @@ $(document).ready(function(){
 
     $(".owl-carousel").owlCarousel({
         loop: true,
-        autoplay: true,
-        autoplayTimeOut: 3000,
+        autoplay: false,
         dots: false,
-        nav: true
+        nav: true,
+        navText: [$(".owl-navigation .owl-nav-prev"), $(".owl-navigation .owl-nav-next")]
     });
 });
 
