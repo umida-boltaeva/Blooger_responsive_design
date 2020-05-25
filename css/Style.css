@@ -90,7 +90,6 @@ p {
 .nav {
     background: white;
     padding: 0 2rem;
-    height: 0rem;
     min-height: 10vh;
     overflow: hidden;
     transition: height 1s ease-in-out;
@@ -199,7 +198,6 @@ main .blog {
     background: url(../assets/classic-blue-coupe-die-cast-model-1037995.jpg);
     background-repeat: no-repeat;
     background-position: right;
-    height: 100vh;
     width: 100%;
     background-size: 65%;
 }
