@@ -19,7 +19,7 @@ const responsive = {
 
 $(document).ready(function(){
     $nav = $(".nav");
-    $toggleCollapse = $(".toggle-collapse ");
+    $toggleCollapse = $(".toggle-icon");
 
     /*   click event on toggle menu    */
     $toggleCollapse.click(function(){
